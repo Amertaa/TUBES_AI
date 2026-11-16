@@ -1,0 +1,199 @@
+{
+ "classes": [
+  "Pastry",
+  "Z_Scratch",
+  "K_Scatch",
+  "Stains",
+  "Dirtiness",
+  "Bumps",
+  "Other_Faults"
+ ],
+ "all_features": [
+  "X_Minimum",
+  "X_Maximum",
+  "Y_Minimum",
+  "Y_Maximum",
+  "Pixels_Areas",
+  "X_Perimeter",
+  "Y_Perimeter",
+  "Sum_of_Luminosity",
+  "Minimum_of_Luminosity",
+  "Maximum_of_Luminosity",
+  "Length_of_Conveyer",
+  "TypeOfSteel_A300",
+  "TypeOfSteel_A400",
+  "Steel_Plate_Thickness",
+  "Edges_Index",
+  "Empty_Index",
+  "Square_Index",
+  "Outside_X_Index",
+  "Edges_X_Index",
+  "Edges_Y_Index",
+  "Outside_Global_Index",
+  "LogOfAreas",
+  "Log_X_Index",
+  "Log_Y_Index",
+  "Orientation_Index",
+  "Luminosity_Index",
+  "SigmoidOfAreas"
+ ],
+ "selected_features": [
+  "X_Minimum",
+  "Y_Maximum",
+  "Pixels_Areas",
+  "X_Perimeter",
+  "Sum_of_Luminosity",
+  "Minimum_of_Luminosity",
+  "Maximum_of_Luminosity",
+  "Length_of_Conveyer",
+  "TypeOfSteel_A300",
+  "TypeOfSteel_A400",
+  "Steel_Plate_Thickness",
+  "Empty_Index",
+  "Outside_Global_Index",
+  "Log_X_Index",
+  "Log_Y_Index",
+  "Orientation_Index"
+ ],
+ "scaler_mean": [
+  577.729381443299,
+  1638210.7414089348,
+  1906.2860824742268,
+  112.41151202749141,
+  205428.5816151203,
+  84.17182130584193,
+  130.14862542955328,
+  1455.9020618556701,
+  0.38316151202749144,
+  0.6168384879725086,
+  78.95274914089347,
+  0.41424922680412374,
+  0.5682989690721649,
+  1.3388777491408934,
+  1.4035701890034367,
+  0.07633419243986254
+ ],
+ "scaler_scale": [
+  523.6810053098144,
+  1828399.8143619047,
+  5823.980053894143,
+  352.99155715220417,
+  546194.762889341,
+  31.796977797056243,
+  18.6152324603765,
+  143.1499251171332,
+  0.48615714303946833,
+  0.4861571430394682,
+  53.85091741906738,
+  0.1360769721956846,
+  0.48368594078353355,
+  0.47776183689708546,
+  0.45734293063185455,
+  0.5050511874292155
+ ],
+ "hp_final": {
+  "lr": 0.002308458827801728,
+  "hidden": 99,
+  "dropout": 0.026679257875922464,
+  "batch_size": 16
+ },
+ "severity": {
+  "Pastry": 4,
+  "Z_Scratch": 5,
+  "K_Scatch": 8,
+  "Stains": 2,
+  "Dirtiness": 1,
+  "Bumps": 6,
+  "Other_Faults": 5
+ },
+ "feature_stats": {
+  "X_Minimum": {
+   "min": 0.0,
+   "max": 1705.0,
+   "median": 437.0
+  },
+  "Y_Maximum": {
+   "min": 6724.0,
+   "max": 12987692.0,
+   "median": 1149309.5
+  },
+  "Pixels_Areas": {
+   "min": 2.0,
+   "max": 152655.0,
+   "median": 171.0
+  },
+  "X_Perimeter": {
+   "min": 2.0,
+   "max": 10449.0,
+   "median": 26.0
+  },
+  "Sum_of_Luminosity": {
+   "min": 250.0,
+   "max": 11591414.0,
+   "median": 19073.0
+  },
+  "Minimum_of_Luminosity": {
+   "min": 0.0,
+   "max": 196.0,
+   "median": 90.0
+  },
+  "Maximum_of_Luminosity": {
+   "min": 37.0,
+   "max": 253.0,
+   "median": 127.0
+  },
+  "Length_of_Conveyer": {
+   "min": 1227.0,
+   "max": 1794.0,
+   "median": 1364.0
+  },
+  "TypeOfSteel_A300": {
+   "min": 0.0,
+   "max": 1.0,
+   "median": 0.0
+  },
+  "TypeOfSteel_A400": {
+   "min": 0.0,
+   "max": 1.0,
+   "median": 1.0
+  },
+  "Steel_Plate_Thickness": {
+   "min": 40.0,
+   "max": 300.0,
+   "median": 70.0
+  },
+  "Empty_Index": {
+   "min": 0.0,
+   "max": 0.9439,
+   "median": 0.4121
+  },
+  "Outside_Global_Index": {
+   "min": 0.0,
+   "max": 1.0,
+   "median": 1.0
+  },
+  "Log_X_Index": {
+   "min": 0.301,
+   "max": 2.9385,
+   "median": 1.1761
+  },
+  "Log_Y_Index": {
+   "min": 0.0,
+   "max": 4.2587,
+   "median": 1.3222
+  },
+  "Orientation_Index": {
+   "min": -0.991,
+   "max": 0.9917,
+   "median": 0.1
+  }
+ },
+ "split": {
+  "train": 1164,
+  "val": 388,
+  "test": 389
+ },
+ "synthetic": false,
+ "quick": false,
+ "runtime_sec": 923.8
+}
